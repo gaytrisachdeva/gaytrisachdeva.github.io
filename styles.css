@@ -73,10 +73,12 @@ nav a:hover::after {
 section {
   padding: 3rem 4rem;
   border-bottom: 1px solid #ccc;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.85);
   border-radius: 16px;
   margin: 2rem auto;
   max-width: 1000px;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
@@ -89,10 +91,11 @@ h2 {
 
 .project, .experience, .skill {
   margin-bottom: 2.5rem;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.85);
   border-radius: 16px;
   padding: 2rem;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);
 }
 
 footer {
@@ -185,22 +188,10 @@ button:active, .btn:active {
 }
 
 /* Custom Section Colors */
-.projects-section {
-  background-color: #f0ffff;
-}
-
-.skills-section {
-  background-color: #fef9ff;
-}
-
-.experience-section {
-  background-color: #f3fff1;
-}
-
-.about-section {
-  background-color: #fffaf0;
-}
-
+.projects-section,
+.skills-section,
+.experience-section,
+.about-section,
 .contact-section {
-  background-color: #f0f8ff;
+  background-color: transparent;
 }
