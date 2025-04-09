@@ -1,5 +1,7 @@
 /* Gaytri's Chemical Engineering Portfolio Theme - Updated */
-
+body {
+  background: hotpink !important;
+}
 :root {
   --main-bg-color: #e0f7ff;
   --primary-color: #003566;
