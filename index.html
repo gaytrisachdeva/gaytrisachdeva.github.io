@@ -1,129 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gaytri Sachdeva | Academic Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-
-  <style>
-    body {
-      font-family: 'Inter', sans-serif;
-      background: #fdfdfd;
-      color: #333;
-      padding: 2rem;
-      line-height: 1.6;
-      max-width: 900px;
-      margin: auto;
-    }
-    h1, h2, h3 {
-      color: #222;
-    }
-    h1 {
-      font-size: 2rem;
-    }
-    h2 {
-      margin-top: 2rem;
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 0.3rem;
-    }
-    ul {
-      padding-left: 1.2rem;
-    }
-    .section {
-      margin-bottom: 2rem;
-    }
-    .emoji {
-      font-size: 1.2rem;
-      margin-right: 0.3rem;
-    }
-    .highlight {
-      font-weight: 600;
-      color: #000;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaytri's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>💼 Gaytri Sachdeva – Academic & Research Portfolio</h1>
-  <p>Welcome to my academic portfolio! I'm a final-year Chemical Engineering undergrad at IIT Jammu, passionate about interdisciplinary research across chemical engineering, bioengineering, and computational modeling.</p>
+  <header>
+    <h1>Gaytri's Chemical Engineering Portfolio</h1>
+  </header>
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-  <div class="section">
-    <h2><span class="emoji">🎓</span> Education</h2>
-    <p><strong>B.Tech in Chemical Engineering</strong>, IIT Jammu — 2021–2025<br>
-    CGPA: 9.14/10 (Till 7th Semester)</p>
-  </div>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m Gaytri, a 21-year-old Chemical Engineering student at IIT Jammu, with a CGPA of 9.14. I love diving into complex problems, whether it’s optimizing nanoparticle synthesis or decoding life’s chaos through books and clay art.</p>
+    <img class="img-banner" src="your-photo.jpg" alt="Gaytri">
+  </section>
 
-  <div class="section">
-    <h2><span class="emoji">🔬</span> Research Experience</h2>
-    <p><strong>Research Intern – Cell Engineering Lab, CGU Taiwan</strong> (May–Aug 2024)<br>
-    <em>Goal:</em> Electrosynthesis of magnetic nanoparticles (MNPs) for biosensing applications.<br>
-    <em>Techniques:</em> UV-Vis, HPLC, Electrochemiluminescence, Electrophoresis.<br>
-    <strong>Key Outcomes:</strong>
-    <ul>
-      <li>Optimized 8+ synthesis parameters to enhance MNP yield & magnetic properties.</li>
-      <li>Functionalized MNPs using CDI/EDC/NHS linkers & studied enzyme activity.</li>
-    </ul>
-    </p>
-  </div>
+  <section id="projects">
+    <h2>Featured Projects</h2>
+    <div class="project">
+      <h3>Magnetic Nanoparticles Optimization</h3>
+      <p>Optimized MNP yield and magnetic properties using different cathode materials, electrolytes, and modifiers. Achieved highest emu value of 30.60 memu/mg using nickel salt and copper cathode.</p>
+    </div>
+    <div class="project">
+      <h3>Continuous Glucose Monitoring Device</h3>
+      <p>Designed and tested a wearable CGM using hydrogel-based sweat sensors, with integration of signal processing and biosensing components.</p>
+    </div>
+  </section>
 
-  <div class="section">
-    <h2><span class="emoji">🧪</span> Major Projects</h2>
-    <p><strong>Wearable Glucose Sensor (GADget)</strong> – IIT Jammu (Dec 2023–Present)<br>
-    Designed a sweat-based glucose sensor using paper microfluidics & hydrogel layers. Modeled sweat absorption and glucose oxidation in COMSOL Multiphysics. Electrochemical calibration and chronoamperometry testing.<br>
-    <em>Patent Filed:</em> Design of a Non-Invasive Continuous Glucose Analytical Device (GADget)<br>
-    Pre-incubation at i2EDC IIT Jammu; ₹4L funding received.
-    </p>
-    <p><strong>Porous Media Modelling</strong> – IIT Jammu (Feb 2024–Present)<br>
-    Created mathematical models for fluid transport using Richards Equation. Used ImageJ + Python + SEM data to estimate permeability via Stokes equation.<br>
-    <em>Research Paper Under Progress:</em> A Multi-Scale Modeling Strategy to Evaluate Permeability in Diagnostic Paper Membranes<br>
-    Authors – Gaytri Sachdeva, Anna Anandita, Kundan Kumar, Dharitri Rath
-    </p>
-  </div>
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="experience">
+      <h3>Research Intern | Cell Engineering Lab, CGU Taiwan</h3>
+      <p>Hands-on with HPLC, Chemipro gel viewer, EDC/NHS crosslinking, fluorescence quantification, and TMB assays. Contributed to experiments, data analysis, and reproducibility protocols.</p>
+    </div>
+    <div class="experience">
+      <h3>Upcoming Graduate Engineer Trainee | Reliance Industries</h3>
+      <p>Offered 9 LPA for a core chemical engineering role. Awaiting final decision based on R&D opportunities vs desk-based roles elsewhere.</p>
+    </div>
+  </section>
 
-  <div class="section">
-    <h2><span class="emoji">🧠</span> Minor Projects (Process Design + CFD + Simulation)</h2>
-    <ul>
-      <li>Fuel Injector Simulation – ANSYS + DPM; validated with PDPA data.</li>
-      <li>PVC Plant Design – sustainable plant with economic viability.</li>
-      <li>Uranium Isotope Separation – efficiency and mass transfer study.</li>
-      <li>E-Waste Recycling – pyrolysis-based recovery of silicon.</li>
-      <li>Paper Plane Aerodynamics – CFD simulation of low-Re airfoils.</li>
-      <li>Nutraceutical Extraction – supercritical CO₂ extraction of caffeine.</li>
-      <li>Passive Solar Tracker – thermal parabolic dish design in CAD.</li>
-    </ul>
-  </div>
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skill">
+      <ul>
+        <li>HPLC, UV-Vis, Agarose Gel Electrophoresis</li>
+        <li>Python (Image Processing, Data Science)</li>
+        <li>COMSOL Multiphysics for porous media</li>
+        <li>Communication, Project Documentation</li>
+        <li>Organized, Empathetic, Growth-oriented</li>
+      </ul>
+    </div>
+  </section>
 
-  <div class="section">
-    <h2><span class="emoji">📊</span> Skills</h2>
-    <p><strong>Modeling & Simulations:</strong> COMSOL, ANSYS, ASPEN, CFD, Porous Media, DPM<br>
-    <strong>Design & Fabrication:</strong> AutoCAD, SolidWorks, CorelDRAW, 3D Printing, Laser Cutting<br>
-    <strong>Programming & Data:</strong> Python, MATLAB, C++, AI/ML, Data Analysis, Image Processing<br>
-    <strong>Lab & Analytics:</strong> UV-Vis, Gel Electrophoresis, HPLC, Bacteria Culture, Microscopy<br>
-    <strong>Soft Skills:</strong> Teamwork, Quick Learning, Scientific Writing, Adaptability</p>
-  </div>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Want to collaborate, hire, or just hype each other up intellectually? Reach out!</p>
+    <button class="btn" onclick="window.location='mailto:gaytri@email.com';">Email Me</button>
+  </section>
 
-  <div class="section">
-    <h2><span class="emoji">📜</span> Publications & Posters</h2>
-    <ul>
-      <li>µTAS 2024, Montréal – Investigation Of Anisotropic Fluid Transport In Paper-Based Materials</li>
-      <li>Chemical Engineering Day 2024, IIT Jammu – Optimization Of Electrosynthesis Of Magnetic Nanoparticles (MNPs)</li>
-      <li>ChEmference 2023, BITS Goa – Integrated Electrophoresis in Paper-Based Microfluidics</li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2><span class="emoji">🏆</span> Achievements</h2>
-    <ul>
-      <li>AIR 355 – GATE 2025 (Chemical Engineering)</li>
-      <li>₹4,00,000 I2EDC Grant for GADget project</li>
-      <li>Top 12 Globally in APEV's Social EV Contest, Japan</li>
-      <li>Commendation Prize – HPCL NGIC 2024</li>
-      <li>Zonal Topper – ISSER Pune's Mimamsa 2024</li>
-      <li>Smart India Hackathon 2024 – Finalist</li>
-      <li>Academic Excellence Certificate – Top 3 in department till 7th sem</li>
-      <li>TEEP Scholarship – CGU Taiwan Research Internship</li>
-    </ul>
-  </div>
+  <footer>
+    <p>© 2025 Gaytri | Made with love and a bit of HCl 💖</p>
+  </footer>
 </body>
 </html>
