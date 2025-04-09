@@ -188,13 +188,7 @@ button:active, .btn:active {
   }
 }
 
-/* Custom Section Colors */
-.projects-section,
-.skills-section,
-.experience-section,
-.about-section,
-.contact-section {
-  background-color: transparent;
+main, article, .content, .text-wrapper {
   background-color: rgba(255, 255, 255, 0.85);
   border-radius: 16px;
   padding: 2rem;
@@ -202,4 +196,5 @@ button:active, .btn:active {
   max-width: 1000px;
   backdrop-filter: blur(4px);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
 }
